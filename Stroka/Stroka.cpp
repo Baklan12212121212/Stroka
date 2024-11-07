@@ -96,7 +96,7 @@ int main() {
             str[length++] = str[i];
         }
     }
-    str[length] = '\0';
+    str[length] = '\0'; 
 
     for (int i = 0; i < length / 2; i++) {
         char temp = str[i];
